@@ -1,0 +1,57 @@
+.mail {
+  width: 40px;
+  position: fixed;
+  z-index: 10;
+}
+
+.mail {
+  right: 40px;
+  top: 0;
+}
+
+.mail::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: var(--main-color);
+}
+
+.mail a:last-of-type {
+  margin-top: 45px;
+}
+
+.mail a:hover {
+  transform: translateY(5px);
+}
+
+.mail div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.mail a {
+  margin: 20px auto;
+  padding: 10px;
+  font-family: var(--mono-font);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
+}
+
+@media screen and (max-width: 1024px) {
+  .mail {
+    right: 20;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mail {
+    display: none;
+  }
+}

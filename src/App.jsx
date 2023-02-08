@@ -1,9 +1,12 @@
 import './App.css';
+import {
+  Header,
+} from "./components/index";
 
 function App() {
   return (
     <div className="App">
-      <h1>Web Folio</h1>
+      <Header />
     </div>
   );
 }
