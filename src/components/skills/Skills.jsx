@@ -18,7 +18,7 @@ function Skills() {
       
       <div class="skills_container grid">
         
-        <div>
+        <div class="skills_cont">
           <h3 class="skills_title">FRONTEND</h3>
           <div class="skills_list grid">
 

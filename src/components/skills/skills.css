@@ -57,3 +57,14 @@
   display: block;
   background-color: var(--main-color);
 }
+
+@media screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills_cont {
+    margin-bottom: 3rem;
+  }
+}
