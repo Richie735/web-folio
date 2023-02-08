@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/web-folio/static/css/main.073c9b0a.css",
-    "main.js": "/web-folio/static/js/main.477f7aa3.js",
-    "static/js/787.6ad79e47.chunk.js": "/web-folio/static/js/787.6ad79e47.chunk.js",
+    "main.css": "/web-folio/static/css/main.ee609e24.css",
+    "main.js": "/web-folio/static/js/main.eb277c81.js",
+    "static/media/SFMono-Regular.ttf": "/web-folio/static/media/SFMono-Regular.04c2f44851d26268afe8.ttf",
+    "static/media/portfolio2.jpg": "/web-folio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio1.jpg": "/web-folio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/web-folio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/web-folio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/me-about.jpeg": "/web-folio/static/media/me-about.a97b6d74ae203dd4c2b2.jpeg",
+    "static/media/Ailerons-Typeface.otf": "/web-folio/static/media/Ailerons-Typeface.29602053d4de24fcf29c.otf",
     "index.html": "/web-folio/index.html",
-    "main.073c9b0a.css.map": "/web-folio/static/css/main.073c9b0a.css.map",
-    "main.477f7aa3.js.map": "/web-folio/static/js/main.477f7aa3.js.map",
-    "787.6ad79e47.chunk.js.map": "/web-folio/static/js/787.6ad79e47.chunk.js.map"
+    "main.ee609e24.css.map": "/web-folio/static/css/main.ee609e24.css.map",
+    "main.eb277c81.js.map": "/web-folio/static/js/main.eb277c81.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.477f7aa3.js"
+    "static/css/main.ee609e24.css",
+    "static/js/main.eb277c81.js"
   ]
 }
