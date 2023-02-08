@@ -2,7 +2,8 @@ import './App.css';
 import {
   About,
   Header,
-  Hero
+  Hero,
+  Projects,
 } from "./components/index";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Projects />
     </div>
   );
 }
