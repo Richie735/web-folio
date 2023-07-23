@@ -1,66 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 @font-face {
-  font-family: "SF Mono";
-  font-weight: 400;
-  src: url("/src/assets/SFMono-Regular.ttf");
+   font-family: "SF Mono";
+   font-weight: 400;
+   src: url("/src/assets/SFMono-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Ailerons";
-  font-weight: 400;
-  src: url("/src/assets/Ailerons-Typeface.otf");
+   font-family: "Ailerons";
+   font-weight: 400;
+   src: url("/src/assets/Ailerons-Typeface.otf");
 }
 
 :root {
-  --bg-color: rgb(36, 36, 36);
-  --bg-alt-color: #585861;
-  --main-color: #fdbc0a;
-  --main-transp-color: rgba(253, 188, 10, 0.17);
-  --main-alt-color: rgb(211, 138, 12);
-  --text-color: #fff;
-  --light-color: #d7d7d7;
+   --bg-color: rgb(36, 36, 36);
+   --bg-alt-color: #585861;
+   /*--main-color: #fdbc0a;*/
+   --main-color: #ffb900;
+   --main-transp-color: rgba(253, 188, 10, 0.17);
+   --main-alt-color: rgb(211, 138, 12);
+   --text-color: #fff;
+   --light-color: #d7d7d7;
 
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-ms: 90%;
+   --container-width-lg: 75%;
+   --container-width-md: 86%;
+   --container-width-ms: 90%;
 
-  --transition: all 250ms ease;
+   --transition: all 250ms ease;
 
-  --main-font: "Poppins", sans-serif;
-  --mono-font: "SF Mono", monospace;
+   --main-font: "Poppins", sans-serif;
+   --mono-font: "SF Mono", monospace;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
 }
 
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+   display: none;
 }
 
 body {
-  font-family: var(--main-font);
-  background: var(--bg-color);
-  color: var(--text-color);
-  line-height: 1.7;
-  /* background-image: url(../src/assets/bg-texture.png); */
+   font-family: var(--main-font);
+   background: var(--bg-color);
+   color: var(--text-color);
+   line-height: 1.7;
 }
 
 /* General Styles */
 .container {
-  width: 100%;
-  margin: 0 auto;
+   width: 100%;
+   margin: 0 auto;
 }
 
 h1,
@@ -68,134 +68,134 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
+   font-weight: 500;
 }
 
 h1 {
-  font-size: 2.5rem;
+   font-size: 2.5rem;
 }
 
 section {
-  margin-top: 3rem;
-  padding: 10rem 25rem;
-  height: 100vh;
+   margin-top: 3rem;
+   padding: 10rem 25rem;
+   height: 100vh;
 }
 
 .text-light {
-  color: var(--light-color);
+   color: var(--light-color);
 }
 
 a {
-  color: var(--main-color);
-  transition: var(--transition);
+   color: var(--main-color);
+   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--text-color);
+   color: var(--text-color);
 }
 
 .btn,
 .btn-primary {
-  width: max-content;
-  display: inline-block;
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  border: 1px solid var(--main-color);
-  transition: var(--transition);
+   width: max-content;
+   display: inline-block;
+   padding: 0.75rem 1.2rem;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   border: 1px solid var(--main-color);
+   transition: var(--transition);
 }
 
 .btn {
-  color: var(--main-color);
+   color: var(--main-color);
 }
 
 .btn:hover {
-  background: var(--main-transp-color);
-  color: var(--main-color);
+   background: var(--main-transp-color);
+   color: var(--main-color);
 }
 
 .btn-primary {
-  background: var(--main-color);
-  color: var(--bg-color);
+   background: var(--main-color);
+   color: var(--bg-color);
 }
 
 .btn-primary:hover {
-  background: var(--text-color);
-  color: var(--bg-color);
-  border-color: transparent;
+   background: var(--text-color);
+   color: var(--bg-color);
+   border-color: transparent;
 }
 
 .numbered-heading-odd,
 .numbered-heading-even {
-  font-family: "Ailerons";
-  letter-spacing: -0.4rem;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  position: relative;
-  margin: 10px 0 40px;
-  width: 100%;
-  font-size: clamp(26px, 5vw, 32px);
-  white-space: nowrap;
+   font-family: "Ailerons";
+   letter-spacing: -0.4rem;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   position: relative;
+   margin: 10px 0 40px;
+   width: 100%;
+   font-size: clamp(26px, 5vw, 32px);
+   white-space: nowrap;
 }
 
 .numbered-heading-odd span,
 .numbered-heading-even span {
-  letter-spacing: normal;
-  position: relative;
-  margin-right: 10px;
-  color: var(--main-color);
-  font-family: var(--mono-font);
-  font-size: clamp(16px, 3vw, 20px);
-  font-weight: 400;
+   letter-spacing: normal;
+   position: relative;
+   margin-right: 10px;
+   color: var(--main-color);
+   font-family: var(--mono-font);
+   font-size: clamp(16px, 3vw, 20px);
+   font-weight: 400;
 }
 
 .numbered-heading-odd:after,
 .numbered-heading-even:before {
-  content: "";
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 1px;
-  background-color: var(--light-color);
+   content: "";
+   display: block;
+   position: relative;
+   width: 100%;
+   height: 1px;
+   background-color: var(--light-color);
 }
 
 .numbered-heading-odd:after {
-  margin-left: 20px;
+   margin-left: 20px;
 }
 
 .numbered-heading-even:before {
-  margin-right: 20px;
+   margin-right: 20px;
 }
 
 img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+   display: block;
+   width: 100%;
+   object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
+   .container {
+      width: var(--container-width-md);
+   }
 
-  section {
-    margin-top: 6rem;
-    padding: 0 10rem;
-  }
+   section {
+      margin-top: 6rem;
+      padding: 0 10rem;
+   }
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-ms);
-  }
+   .container {
+      width: var(--container-width-ms);
+   }
 
-  section {
-    padding: 0 2.5rem;
-    margin-bottom: 25rem;
-  }
+   section {
+      padding: 0 2.5rem;
+      margin-bottom: 25rem;
+   }
 
-  section > h2 {
-    margin-top: 2rem;
-  }
+   section > h2 {
+      margin-top: 2rem;
+   }
 }
